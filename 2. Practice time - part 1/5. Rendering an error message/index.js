@@ -2,4 +2,9 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
+let errorMessage = document.getElementById("error");
 
+
+function showError(){
+    errorMessage.textContent = "Something went wrong, please try again";
+}
